@@ -40,6 +40,21 @@ header {
   flex-grow: 1;
 }
 
+.logo:hover {
+  animation: bounce 1s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.12);
+    background-color: #FF1493;
+  }
+}
+
 .nav {
   flex-grow: 2;
 }
