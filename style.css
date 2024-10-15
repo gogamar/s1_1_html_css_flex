@@ -112,3 +112,13 @@ footer {
   background-color: #F0E78C;
   padding: 17px;
 }
+
+@media (max-width: 768px) {
+  .main-content, header {
+    flex-direction: column;
+  }
+
+  header div {
+    width: 100%;
+  }
+}
