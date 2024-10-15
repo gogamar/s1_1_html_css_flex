@@ -122,3 +122,9 @@ footer {
     width: 100%;
   }
 }
+
+@media (max-width: 576px) {
+  .articles {
+    flex-direction: column;
+  }
+}
