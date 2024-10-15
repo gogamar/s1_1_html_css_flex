@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: lightgray;
-}
-
-.container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .header-wrapper {
   display: flex;
   flex-direction: column;
