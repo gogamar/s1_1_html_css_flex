@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header-wrapper {
   display: flex;
   flex-direction: column;
@@ -65,7 +70,7 @@ header {
 
 .main-content {
   display: flex;
-  flex: 1;
+  gap: 17px;
   padding: 17px;
   margin-bottom: 17px;
   background-color: black;
